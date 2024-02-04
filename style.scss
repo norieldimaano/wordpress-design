@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(284deg, rgba(255,255,255,1) 0%, rgba(204,178,253,1) 100%);
+}
+
+/* Phase 1 */
+
+#fixed{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 16em 0;
+    padding: .25em 1.5em;
+    background-color: #F0F0F0;
+    border-radius: 2em;
+    font-size: .8vw;
+    color: #0B303B;
+    img{
+        width: 3%;
+        cursor: pointer;
+    } #lativ{
+        margin-left: -38%;
+        cursor: pointer;
+    } #demo{
+        font-size: 1vw;
+        color: #fff;
+        border-radius: 2em;
+        background-color: #0B303B;
+        font-weight: 300;
+        padding: 1em;
+        cursor: pointer;
+    } h3{
+        cursor: pointer;
+    }
+}
+
+#health{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 3vw;
+    color: #0B303B;
+    h3{
+        margin-top: 12%;
+        font-size: 2.2vw;
+        font-weight: 300;
+    } img{
+        width: 60%;
+    }
+}
+
+/* Phase 2 */
+
+#why{
+    font-size: 1vw;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+    color: #0B303B;
+}
+
+#grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 450px 450px 450px;
+    gap: 2rem;
+    margin: 0 2em;
+    #grid1{
+        background-color: #fff;
+        border-radius: 2em;
+        padding: 2em;
+        color: #0B303B;
+        img{
+            width: 50%;
+        }
+    } #grid2{
+        background-color: #0B303B;
+        border-radius: 2em;
+        padding: 2em;
+        color: #fff;
+        img{
+            width: 50%;
+        }
+    } #grid3{
+        background-color: #5454D2;
+        border-radius: 2em;
+        padding: 2em;
+        color: #fff;
+        img{
+            width: 50%;
+        }
+    }
+} 
+
+/* Phase 3 */
+
+#person{
+    margin-top: 10%;
+    margin-bottom: 8%;
+    background-color: #0B303B;
+    max-width: 100vw;
+    padding: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 72vh;
+    img{
+        width: 40%;
+        margin-right: 7%;
+        margin-left: 10%;
+        border-radius: 1.25em;
+    } #person-contents{
+        color: #fff;
+        margin-right: 10%;
+        font-size: .9vw;
+    } span{
+        font-weight: 300;
+        font-size: .85em;
+    } h2{
+        font-size: 1vw;
+        color: #0B303B;
+        border-radius: 2em;
+        background-color: #fff;
+        font-weight: 300;
+        padding: 1em;
+        margin-right: 20em;
+        text-align: center;
+        margin-top: 5%;
+        cursor: pointer;
+    } h3{ 
+        font-weight: bold;
+        margin-top: 5%;
+    }
+}
+
+/* Phase 3 */
+
+#tracker{
+    background-color: #F0F0F0;
+    margin-top: 3%;
+    margin-left: 13.7%;
+    border-radius: 2em;
+    width: 70vw;
+    height: 70vh;
+    padding-left: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 9%;
+    #tracker-text-img{
+        width: 9%;
+    } #tracker-text{
+        color: #0B303B;
+        font-size: 1vw;
+        width: 100vw;
+    }
+    #tracker-watch-img{
+        width: 90%;
+        margin-left: 5%;
+    } h3{
+        color: #0B303B;
+        font-weight: 300;
+    } h2{
+        font-size: 1vw;
+        color: #fff;
+        border-radius: 2em;
+        background-color: #0B303B;
+        font-weight: 300;
+        padding: 1em 0;
+        margin-right: 24em;
+        text-align: center;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+}
+
+/* Phase 4 */
+
+#spacer{
+    width: 71.5vw;
+    padding: 0.5px 0;
+    background: black;
+    margin: 0 auto;
+}
+
+#table{
+    margin-top: 4%;
+    margin-bottom: 7%;
+    margin-left: 13.9%;
+    text-align: start;
+}
+
+th{
+    padding: 10px 8em 10px 0;
+    color: #0B303B;
+}
+
+td{
+    line-height: 1.5em;
+    color: #0B303B;
+}
+
+#lativ-footer{
+    margin-left: 13.9%;
+    margin-bottom: 7%;
+    color: #0B303B;
+    #lativ-text{
+        font-weight: bold;
+        font-size: 2vw;
+    } h3{
+        font-weight: 100;
+    }
+}
+
