@@ -9,7 +9,7 @@ body {
 #fixed {
   position: fixed;
   width: 100vw;
-  top: 0;
+  top: 1%;
 }
 
 #nav {
@@ -24,11 +24,12 @@ body {
   color: #0B303B;
 }
 #nav img {
-  width: 3%;
+  margin-left: -3%;
+  width: 10%;
   cursor: pointer;
 }
 #nav #lativ {
-  margin-left: -38%;
+  margin-left: -42%;
   cursor: pointer;
 }
 #nav #demo {
@@ -42,6 +43,14 @@ body {
 }
 #nav h3 {
   cursor: pointer;
+  font-size: 1.2vw;
+}
+#nav a {
+  color: #0B303B;
+  text-decoration: none;
+}
+#nav a:hover {
+  text-decoration: underline;
 }
 
 #health {
@@ -146,6 +155,9 @@ body {
   font-weight: bold;
   margin-top: 5%;
 }
+#person p {
+  font-size: 1.8vw;
+}
 
 /* Phase 3 */
 #tracker {
@@ -174,7 +186,7 @@ body {
   width: 90%;
   margin-left: 5%;
 }
-#tracker h3 {
+#tracker p {
   color: #0B303B;
   font-weight: 300;
 }
@@ -227,4 +239,20 @@ td {
 }
 #lativ-footer h3 {
   font-weight: 100;
+}
+
+/* About Page */
+#about2-pg {
+  color: #0B303B;
+  margin: 10% auto 5%;
+  background-color: #F0F0F0;
+  border-radius: 2em;
+  height: 22vh;
+  width: 35vw;
+  padding: 5em 10em;
+  font-size: 1.5vw;
+}
+#about2-pg #about2-contents {
+  margin-top: -8%;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

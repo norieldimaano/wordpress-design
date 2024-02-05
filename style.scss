@@ -10,7 +10,7 @@ body{
 #fixed{
     position: fixed;
     width: 100vw;
-    top: 0;
+    top: 1%;
 }
 
 #nav{
@@ -24,10 +24,11 @@ body{
     font-size: .8vw;
     color: #0B303B;
     img{
-        width: 3%;
+        margin-left: -3%;
+        width: 10%;
         cursor: pointer;
     } #lativ{
-        margin-left: -38%;
+        margin-left: -42%;
         cursor: pointer;
     } #demo{
         font-size: 1vw;
@@ -39,6 +40,13 @@ body{
         cursor: pointer;
     } h3{
         cursor: pointer;
+        font-size: 1.2vw;
+    } a{
+        color: #0B303B;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }
 
@@ -137,6 +145,8 @@ body{
     } h3{ 
         font-weight: bold;
         margin-top: 5%;
+    } p{
+        font-size: 1.8vw;
     }
 }
 
@@ -165,7 +175,7 @@ body{
     #tracker-watch-img{
         width: 90%;
         margin-left: 5%;
-    } h3{
+    } p{
         color: #0B303B;
         font-weight: 300;
     } h2{
@@ -220,3 +230,19 @@ td{
     }
 }
 
+/* About Page */
+
+#about2-pg{
+    color: #0B303B;
+    margin: 10% auto 5%;
+    background-color: #F0F0F0;
+    border-radius: 2em;
+    height: 22vh;
+    width: 35vw;
+    padding: 5em 10em;
+    font-size: 1.5vw;
+    #about2-contents{
+    margin-top: -8%;
+    font-weight: 300;
+    } 
+} 
