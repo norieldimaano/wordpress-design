@@ -80,7 +80,7 @@ body {
 #grid {
   display: grid;
   justify-content: center;
-  grid-template-columns: 450px 450px 450px;
+  grid-template-columns: 24vw 24vw 24vw;
   gap: 2rem;
   margin: 0 2em;
 }
@@ -197,7 +197,7 @@ body {
   background-color: #0B303B;
   font-weight: 300;
   padding: 1em 0;
-  margin-right: 24em;
+  margin-right: 65%;
   text-align: center;
   margin-top: 5%;
   cursor: pointer;
